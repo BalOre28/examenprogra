@@ -14,6 +14,7 @@ abstract class Barco {
     private String nombre;
     private Date fechaDeCirculacion;
 
+    //constructor
     public Barco(String nombre) {
         this.nombre = nombre;
         this.fechaDeCirculacion = new Date();
@@ -26,8 +27,7 @@ abstract class Barco {
     public final Date getFechaDeCirculacion() {
         return this.fechaDeCirculacion;
     }
-
-    @Override
+    
     public String toString() {
         return this.nombre;
     }
@@ -37,5 +37,4 @@ abstract class Barco {
     public abstract double vaciarCobrar();
 
     public abstract double precioElemento();
-}
-
+}//fin de barco

@@ -12,7 +12,7 @@ public enum TipoPesquero {
     PEZ(200),CAMARON(300),LANGOSTA(500);
     
      private final double precio;
-
+     //mini constructor
     TipoPesquero(double precio) {
         this.precio = precio;
     }
@@ -20,4 +20,4 @@ public enum TipoPesquero {
     public double getPrecio() {
         return precio;
     }
-}
+}//fin de tipoPesquero
